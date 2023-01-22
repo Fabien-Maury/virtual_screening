@@ -5,7 +5,7 @@ from os.path import isfile, join
 
 #########################################################################
 
-pockets_folder = "7nn0_pockets"
+pockets_folder = "pockets"
 ligands_list = "ligand_database.txt"
 
 #########################################################################
