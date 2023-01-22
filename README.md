@@ -3,13 +3,13 @@
 1. Use a linux distribution (this code was tested on Ubuntu), and install conda and python3
 2. open a terminal in the folder containing all the files
 3. prepare the conda environment using these commands and testing.txt :
->conda create -n testing --file testing.txt
->conda activate testing
->sudo apt-get install autodock-vina
->pip install pandas
->pip install scipy
->pip install rdkit
->pip install meeko
+>conda create -n testing --file testing.txt \
+>conda activate testing \
+>sudo apt-get install autodock-vina \
+>pip install pandas \
+>pip install scipy \
+>pip install rdkit \
+>pip install meeko \
 
 A. SINGLE DOCKING : 
 4. for a single docking, use the file "single_test.py". Edit the file to include the path to your receptor and ligand, in the space at the beginning of the code
