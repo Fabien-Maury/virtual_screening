@@ -1,4 +1,4 @@
-## Step-by-step tutorial to this virtual screening pipeline ##
+# Step-by-step tutorial to this virtual screening pipeline
 
 1. Use a linux distribution (this code was tested on Ubuntu), and install conda and python3
 2. open a terminal in the folder containing all the files
