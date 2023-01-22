@@ -7,7 +7,7 @@ from os.path import isfile, join
 
 # edit with the path to your files
 
-pockets_folder = "7nn0_pockets"             
+pockets_folder = "pockets"             
 ligands_list = "ligand_database.txt"
 
 #########################################################################
