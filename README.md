@@ -11,13 +11,16 @@
 >pip install rdkit \
 >pip install meeko \
 
+
 A. SINGLE DOCKING : 
+
 4. for a single docking, use the file "single_test.py". Edit the file to include the path to your receptor and ligand, in the space at the beginning of the code
 5. in your terminal, launch the script by running this command : >python3 single_test.py
 
 OR
 
 B. VIRTUAL SCREENING : 
+
 4. to dock multiple ligands, on a set of receptor, use "screening.py". Edit the file to include the path to your receptor folder and ligands list, in the space at the beginning of the code
 5. in your terminal, launch the script by running this command : >python3 screening.py
 
