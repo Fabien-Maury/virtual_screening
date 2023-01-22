@@ -3,23 +3,23 @@
 1. Use a linux distribution (this code was tested on Ubuntu), and install conda and python3
 2. open a terminal in the folder containing all the files
 3. prepare the conda environment using these commands and testing.txt :
-conda create -n testing --file testing.txt
-conda activate testing
-sudo apt-get install autodock-vina
-pip install pandas
-pip install scipy
-pip install rdkit
-pip install meeko
+>conda create -n testing --file testing.txt
+>conda activate testing
+>sudo apt-get install autodock-vina
+>pip install pandas
+>pip install scipy
+>pip install rdkit
+>pip install meeko
 
 A. SINGLE DOCKING : 
 4. for a single docking, use the file "single_test.py". Edit the file to include the path to your receptor and ligand, in the space at the beginning of the code
-5. in your terminal, launch the script by running this command : "python3 single_test.py"
+5. in your terminal, launch the script by running this command : >python3 single_test.py
 
 OR
 
 B. VIRTUAL SCREENING : 
 4. to dock multiple ligands, on a set of receptor, use "screening.py". Edit the file to include the path to your receptor folder and ligands list, in the space at the beginning of the code
-5. in your terminal, launch the script by running this command : "python3 screening.py"
+5. in your terminal, launch the script by running this command : >python3 screening.py
 
 6. a lot of text will be displayed quickly on your terminal, and it will then freeze for a while (possibly a long time depending on the size of the molecules). If you are in case B : virtual screening, this will repeat until an attempt at docking each receptor with each ligand has been made.
 
