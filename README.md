@@ -32,7 +32,7 @@ OR
 
 
 
-NOTES : 
+## NOTES : 
 - ligand input must be in the SMILES format. Relevant SMILES strings must be stored in a .txt file (here ligands_database.txt)
 - receptor input files must be in the .pdb format.
 - coordinates for the center of the receptor must be stored in a .txt file as : "[x, y, z]"
