@@ -22,7 +22,7 @@ OR
 
 ### B. VIRTUAL SCREENING : 
 
-4. to dock multiple ligands, on a set of receptor, use "screening.py". Edit the file to include the path to your receptor folder and ligands list, in the space at the beginning of the code
+4. to dock multiple ligands, on a set of receptors, use "screening.py". Edit the file to include the path to your receptor folder and ligands list, in the space at the beginning of the code
 5. in your terminal, launch the script by running this command :
 >python3 screening.py
 
