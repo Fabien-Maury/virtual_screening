@@ -39,4 +39,4 @@ OR
 - here both .pdb and .txt files for pocket_example1 are in the "pocket_example1 folder", which is itself in the "pockets" folder. You can add your own pockets folders to "pockets" following that model
 - all input files must follow the naming convention from the given example
 - while the scripts are running, new files and folders will be created in the working directory, do not interact with them until the code has finished running, or failure may occur
-- if errors happen due to missing packages, you can problably install them in your envrionment with pip install
+- if errors happen due to missing packages, you can problably install them in your environment with pip install
