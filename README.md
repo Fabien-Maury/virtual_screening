@@ -35,7 +35,7 @@ OR
 ## NOTES : 
 - ligand input must be in the SMILES format. Relevant SMILES strings must be stored in a .txt file (here ligands_database.txt)
 - receptor input files must be in the .pdb format.
-- coordinates for the center of the receptor must be stored in a .txt file as : "[x, y, z]"
+- coordinates for the center of the receptor must be stored in a .txt file as : "[x, y, z]" (without the quotes, cf. example file)
 - here both .pdb and .txt files for pocket_example1 are in the "pocket_example1 folder", which is itself in the "pockets" folder. You can add your own pockets folders to "pockets" following that model
 - all input files must follow the naming convention from the given example
 - while the scripts are running, new files and folders will be created in the working directory, do not interact with them until the code has finished running, or failure may occur
